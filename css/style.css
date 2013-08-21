@@ -101,7 +101,7 @@ HOMEPAGE
 ========================================================================== */
 
 /* HOMEPAGE VARIATION 1 : BIG STATIC IMAGE */
-#homepage {background: #333 url('../demo/01_homepage-image.jpg') no-repeat bottom fixed;height:570px;}
+#homepage {background: #333 url('../images/humberto-worldwide-logo.jpg') no-repeat center center;height:570px; background-size: 689px 500px; }
 #homepage .container {height: 100%;top:23%;bottom:23%;}
 #homepage .home-bigtext{text-align:center;margin:0 auto;width:100%;padding-top:0px;}
 #homepage .home-bigtext h1{text-shadow:0px 1px 0px #555;font-weight:700;}
