@@ -70,7 +70,7 @@ ul.list-square li{list-style-type:square;margin:5px 0px 10px 17px;}
 /*==========================================================================
 NAVIGATION
 ========================================================================== */
-nav {background-color:#000;width: 980px;z-index: 100;height: 60px;font-family:"Oxygen";display:none;position:fixed;font-size:13px;}
+nav {background-color:#000;width: 980px;z-index: 100;height: 60px;font-family:"Oxygen";;position:fixed;font-size:13px;}
 nav ul {margin: 0;padding: 20px 0px 20px 0px;list-style-type: none;float:left;background-color:#000;}
 nav ul li {display: inline;padding:0px 10px;}
 nav ul li:first-child {padding-left: 0;}
