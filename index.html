@@ -25,7 +25,7 @@
 
   <script>
     $(window).scroll(function(){
-      if ($(this).scrollTop() > 650) {
+      if ($(this).scrollTop() > -20) {
         $('nav').slideDown();
         } else {
         $('nav').slideUp();
@@ -73,12 +73,13 @@
       <div class="container">
         <div class="sixteen columns">
           <!-- NAVIGATION - Sign up --> 
-          <div class="signup"><a class="button-signup my_modal_open">Enroll Today</a></div>
+          <div class="signup">
+            <a class="button-signup" href="mailto:admin@teamhtts.com">Contact Us</a></div>
           <!-- NAVIGATION - list -->  
           <ul id="onepagenav">
             <li><a href="#homepage">Back to Top</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#team">Team</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
+            <!-- <li><a href="#team">Team</a></li> -->
             <li><a href="#schedule">Schedule</a></li>
             <li><a href="#venue">Location</a></li>
             <!-- <li><a href="#faq">FAQ</a></li> -->
@@ -106,6 +107,7 @@
       <!-- MODULE : HOMEPAGE -->
 
       <!-- MODULE : ABOUT -->
+      <!-- 
       <section id="about" class="section-container">
       <div class="container">
         <div class="sixteen columns heading-text">
@@ -115,14 +117,12 @@
           </div>
         </div>
 
-        <!-- ABOUT - background -->
         <div class="sixteen columns">
           <h5>Background mission</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <hr class="dividerline"/>
 
-        <!-- ABOUT - topic -->
         <div class="sixteen columns ">
           <h5>Learning topics</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
@@ -178,7 +178,6 @@
 
         <hr class="dividerline"/>
 
-        <!-- ABOUT - video -->
         <div class="eight columns">
           <h5>Check out our Promotional Video</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
@@ -194,9 +193,9 @@
         </div>
       </div>
       </section>
-      <!-- MODULE : ABOUT --> 
-
+      -->
       <!-- MODULE : QUOTE -->
+      <!-- 
       <div id="quotesection">
         <div class="container">
           <div class="sixteen columns quote">
@@ -222,9 +221,11 @@
           </div>
         </div>
       </div>
+      -->
       <!-- MODULE : QUOTE -->
 
       <!-- MODULE : SPEAKER -->
+      <!--
       <div class="colorline"></div>
       <section id="team" class="section-container">
       <div class="header-image">
@@ -238,7 +239,6 @@
             <span class="separator-subheader">Who will share the experiences</span>
           </div>
         </div>
-        <!-- SPEAKER - speaker profile -->
         <div class="one-third column speaker-profile">
           <div class="speaker-thumb"><img src="demo/speaker/04_speaker1.jpg" alt="speaker"/></div> 
           <div class="speaker-description">
@@ -247,9 +247,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante</p>
           </div>
         </div>
-        <!-- SPEAKER - speaker profile -->
-
-        <!-- SPEAKER - speaker profile -->
         <div class="one-third column speaker-profile">
           <div class="speaker-thumb"><img src="demo/speaker/04_speaker2.jpg" alt="speaker"/></div> 
           <div class="speaker-description">
@@ -258,29 +255,18 @@
             <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante</p>
           </div>
         </div>
-        <!-- SPEAKER - speaker profile -->
-
-        <!-- SPEAKER - speaker profile -->
-        <!-- <div class="one-third column speaker-profile">
-          <div class="speaker-thumb"><img src="demo/speaker/04_speaker3.jpg" alt="speaker"/></div> 
-          <div class="speaker-description">
-            <h5>John Brown</h5>
-            <p class="job-position">Social Media Expertise</p> 
-            <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante</p>
-          </div>
-        </div> -->
-        <!-- SPEAKER - speaker profile -->
       </div>
       </section>
+      -->
       <!-- MODULE : SPEAKER -->
 
       <div class="colorline"></div>
       <!-- MODULE : SCHEDULE -->
       <section id="schedule" class="section-container">
-      <div class="header-image">
+      <!-- <div class="header-image">
         <div class="header-image-schedule"></div>
         <div class="pattern-overlay"></div>
-      </div>
+      </div> -->
       <div class="container">
         <div class="sixteen columns heading-text">
           <div class="separator separator-title">
@@ -408,12 +394,13 @@
 
         <!-- VENUE INFO -->
         <div class="sixteen columns">
-          <h5>1820 Town & Country Dr., Norco, CA 92860</h5>
+          <h5>1820 Town & Country Dr, Norco, CA 92860</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <hr class="dividerline"/>    
 
         <!-- VENUE - how to get there -->
+        <!--
         <div class="routeby one-third column">
           <div class="route-icon"><img src="images/icons/car.png" alt="icon"/></div> 
           <div class="route-title">
@@ -422,9 +409,6 @@
           </div> 
           <div class="route-moreinfo"><p>Find your way to the Meeting by navigation and GPS. Parking in front of the event location is possible. Your destination address: Broadway center, Newyork (NYC)</p></div>
         </div>
-        <!-- VENUE - how to get there -->
-
-        <!-- VENUE - how to get there -->
         <div class="routeby one-third column">
           <div class="route-icon"><img src="images/icons/train.png" alt="icon"/></div> 
           <div class="route-title">
@@ -433,9 +417,6 @@
           </div> 
           <div class="route-moreinfo"><p>You can reach the train station to Manhattan very easily over the train stations in New York. The train "Circle Line″ will drive each 20 minutes from Bronx to Manhattan.</p></div>
         </div>
-        <!-- VENUE - how to get there -->
-
-        <!-- VENUE - how to get there -->
         <div class="routeby one-third column">
           <div class="route-icon"><img src="images/icons/bus.png" alt="icon"/></div> 
           <div class="route-title">
@@ -444,7 +425,7 @@
           </div> 
           <div class="route-moreinfo"><p>You can take any red bus and after 20 minutes, please alight on Central Park and get on another bus with the number 22. about 15 minutes you will reach Broadway bus stop.</p></div>
         </div>
-        <!-- VENUE - how to get there -->
+        -->
       </div>
       </section>
       <!-- MODULE : VENUE -->
@@ -529,6 +510,7 @@
 
       <!-- MODULE : FOOTER -->
       <footer>
+      <!-- 
       <div class="footer-arrow"></div>
       <div class="container">
         <div class="sixteen columns footer-inside">
@@ -538,6 +520,7 @@
           <a class="button my_modal_open" style="margin:0 auto;">Enroll Now</a>
         </div>
       </div>
+      -->
 
       <div class="footer-border"></div>
       <div class="container">   
