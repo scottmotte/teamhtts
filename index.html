@@ -1,11 +1,907 @@
-<html>
+<!DOCTYPE HTML>
 <head>
-  <title>HTTS: Humberto's Training and Technical Support</title>
-  <link href='stylesheets/application.css' media='screen' rel='stylesheet' type='text/css'>
+	<!-- ========= 
+ 	Title and Metas 
+	========= -->
+	<meta charset="utf-8">
+	<title>Unique - Responsive HTML5 Flat Custom Event Landingpage</title>
+	<meta name="description" content="Unique is a HTML5 Multipurpose Event Landing Page.">
+    <meta name="keywords" content="unique, landing page, html, event, multipurpose, clean, stunning">
+	<meta name="author" content="The Graphicgeeks">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- ========= 
+	Favicons 
+    ========= -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+	
+    <!-- ========= 
+    Fonts 
+    ========= -->
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+    <!-- ========= 
+  	CSS
+	========= -->
+    <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Media Queries -->	
+	<link rel="stylesheet" href="css/media.css">
+    
+    <!-- ========= 
+  	JS
+	========= -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    
+    <script type="text/javascript" src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <!-- Sticky Nav -->
+    
+  	<script>
+		$(window).scroll(function(){
+        if ($(this).scrollTop() > 650) {
+            $('nav').slideDown();
+			
+        } else {
+            $('nav').slideUp();
+			
+        }
+   		}); 	 
+  	</script>
+
+    <!-- accordion -->
+	<script type="text/javascript" src="js/zebra_accordion.js"></script>
+	<!-- custom jquery -->
+	<script type="text/javascript" src="js/graphicgeeks.js"></script> 
+	<!-- flexisel -->
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+        <script type="text/javascript">
+			$(window).load(function() {
+			$("#sponsor-flexisel").flexisel(
+			{visibleItems: 4,
+				animationSpeed: 500,
+				autoPlay: true,
+				autoPlaySpeed: 2000,            
+				pauseOnHover: true,}
+			);
+		});
+	</script> 
+    <script type="text/javascript" src="js/jquery.quovolver.js"></script>
+		<!-- JavaScript Test Zone -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+      		$('blockquote').quovolver();
+       	});
+	</script>
+	<script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
+
 <body>
-  <div class="content">
-    <img class="logo" src="images/htts.png"/>
-  </div>
+	<!-- LOADING START -->  
+	<div class="preloader">
+		<div class="intro-type1 animated bounceIn">
+  			<img src="demo/logo/gglogo.png" alt="logo"/>
+            <p>presents</p>
+            <h2 class="color">Kick Out Creative Workshop 2013!</h2>
+            <p class="tagline">When Creativity Meets Digital Industry</p>
+   			<img src="images/loader.gif" height="25" width="25" alt="preloader">
+		</div>    
+	</div>
+    <!-- LOADING START -->
+    
+	<!-- START OF DIV -->  
+	<div class="page" >
+		<div class="container-border">
+        	<!-- NAVIGATION -->
+            <nav>
+                <div class="container">
+                    <div class="sixteen columns">
+                        <!-- NAVIGATION - Sign up -->	
+                        <div class="signup"><a class="button-signup my_modal_open">Buy Ticket Now</a></div>
+                        <!-- NAVIGATION - list -->	
+                        <ul id="onepagenav">
+                            <li><a href="#homepage">Back to Top</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#speaker">Speakers</a></li>
+                            <li><a href="#schedule">Schedules</a></li>
+                            <li><a href="#venue">Venue</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>   
+                        <!-- NAVIGATION - list -->	
+                    </div>
+                </div>
+			</nav>
+            <!-- NAVIGATION -->
+            
+            <!-- MODULE : HOMEPAGE -->
+			<section id="homepage">
+            	<div class="pattern-overlay"></div>
+				<div class="container">
+					<div class="sixteen columns">
+                        <!-- HOMEPAGE - bigtext -->
+                        <div class="home-bigtext">
+                            <h1 class="white">Kick Out Creative Workshop 2013!</h1>
+                            <p class="white">When Creativity Meets Digital Industry</p>
+                        </div>
+                        <!-- HOMEPAGE - bigtext -->
+                        <!-- HOMEPAGE - widget -->
+                        <div id="homepage-widget">
+                            <div id="event-widget">
+                                <div id="event-widget-header">
+                                    <div class="event-widget-icon"><img src="images/icons/calendar.png" alt="icon"/></div>
+                                    <div class="event-widget-desc">27 March 2014</div>
+                                    <div class="event-widget-icon"><img src="images/icons/marker.png" alt="icon"/></div>
+                                    <div class="event-widget-desc">New York, USA</div>
+                                </div>
+                                <div id="countdown">
+                                    <div id="countdown_dashboard">
+                                        <div class="dash days_dash">
+                                            <span class="dash-title">days</span>
+                                            <div class="digit digit-daymargin">0</div>
+                                            <div class="digit">0</div>
+                                            <div class="digit">0</div>
+                                        </div>
+                            
+                                        <div class="dash hours_dash">
+                                            <span class="dash-title">hours</span>
+                                            <div class="digit digit-margin">0</div>
+                                            <div class="digit">0</div>
+                                        </div>
+                            
+                                        <div class="dash minutes_dash">
+                                            <span class="dash-title">minutes</span>
+                                            <div class="digit digit-margin">0</div>
+                                            <div class="digit">0</div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- HOMEPAGE - widget -->
+                        <!-- HOMEPAGE - share -->
+                        <div class="shareon-container">
+                            <div class="shareon-text">share on</div>
+                            <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://graphicgeeks.net/&amp;p[images][0]=http://logicum.co/wp-content/kliximagedimsum/sharetweetbuttons.dimsum.291x173.jpg&amp;p[title]=Creating%20Custom%20share%20buttons+&amp;p[summary]=Build%20your%20custom%20share%20buttons%20from%20normal%20images%20with%20examples%20on%20each%20button" class="facebook-share"> facebook</a>
+                            <a target="_blank" href="https://twitter.com/intent/tweet?url=http://graphicgeeks.net&amp;text=Graphicgeeks:%20Free%20Graphic%20Resources+&amp;via=thegraphicgeeks" class="twitter-share">twitter</a>
+                        </div>
+                        <!-- HOMEPAGE - share -->
+					</div>
+				</div>
+			</section>
+			<!-- MODULE : HOMEPAGE -->
+            
+            <!-- MODULE : TOP SPONSOR -->
+            <div class="topsponsor-section">
+            	<div class="container">
+                    <div class="four columns topsponsor-single-withtext"><p>organized by</p>
+                    	<img src="demo/logo/05_logo1.png" alt="logo"/>
+                    </div>
+                    <div class="four columns topsponsor-single-withtext"><p>partner with</p>
+                    	<img src="demo/logo/05_logo2.png" alt="logo"/>
+                    </div>
+                    <div class="four columns topsponsor-single-withtext"><p>supported by</p>
+                    	<img src="demo/logo/05_logo3.png" alt="logo"/>
+                    </div>
+                    <div class="four columns topsponsor-single-withtext"><p>mediapartner</p>
+                    	<img src="demo/logo/05_logo4.png" alt="logo"/>
+                    </div>
+                </div>
+            </div>
+            <!-- MODULE : TOP SPONSOR -->
+            
+            
+            <div class="colorline"></div>
+            
+        	<!-- MODULE : ABOUT -->
+			<section id="about" class="section-container">
+            	<div class="header-image">
+                	<div class="header-image-about"></div>
+                    <div class="pattern-overlay"></div>
+                </div>
+ 				<div class="container">
+          			<div class="sixteen columns heading-text">
+                		<div class="separator separator-title">
+                        	<h2 class="separator-mainheader color">About Workshop</h2>
+                    		<span class="separator-subheader">Learn who we are and why we do this</span>
+                    	</div>
+                	</div>
+                
+                    <!-- ABOUT - background -->
+                    <div class="sixteen columns">
+                        <h5>Background mission</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <hr class="dividerline"/>
+                    
+                    <!-- ABOUT - topic -->
+                    <div class="sixteen columns ">
+                    <h5>Learning topics</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <div class="eight columns topic-container">
+                        <div class="topic-icon">
+                            <img src="demo/03_icon1.png" alt="topic"/>
+                        </div>
+                        <span class="topic-title">Organizing your folder</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <div class="eight columns topic-container">
+                        <div class="topic-icon">
+                            <img src="demo/03_icon2.png" alt="topic"/>
+                        </div>
+                        <span class="topic-title">Create to do task</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <div class="eight columns topic-container">
+                        <div class="topic-icon">
+                            <img src="demo/03_icon3.png" alt="topic"/>
+                        </div>
+                        <span class="topic-title">Search &amp; explore</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <div class="eight columns topic-container">
+                        <div class="topic-icon">
+                            <img src="demo/03_icon4.png" alt="topic"/>
+                        </div>
+                        <span class="topic-title">Go take photo</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <div class="eight columns topic-container">
+                        <div class="topic-icon">
+                            <img src="demo/03_icon5.png" alt="topic"/>
+                        </div>
+                        <span class="topic-title">Go professional</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <div class="eight columns topic-container">
+                        <div class="topic-icon">
+                            <img src="demo/03_icon6.png" alt="topic"/>
+                        </div>
+                        <span class="topic-title">Write a note</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    
+                    <hr class="dividerline"/>
+                    
+                    <!-- ABOUT - video -->
+                    <div class="eight columns">
+                        <h5>Check out our Promotional Video</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        <ul class="list-square">
+                            <li>Nullam vitae sollicitudin eros. Cras varius vehicula velit, ac congue quam dictum sed.</li>
+                            <li>Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</li>
+                            <li>Phasellus ut vulputate erat. Morbi interdum enim. </li>
+                            <li>Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</li>
+                        </ul>
+                    </div>
+                    <div class="about-video eight columns">
+                        <iframe src="http://player.vimeo.com/video/40000696?color=ffffff" class="video-embed"></iframe> 
+                    </div>
+				</div>
+			</section>
+			<!-- MODULE : ABOUT --> 
+    		
+            <!-- MODULE : QUOTE -->
+        	<div id="quotesection">
+    			<div class="container">
+            		<div class="sixteen columns quote">
+                        <blockquote>
+                            <h5>Ut eu consectetur nisi. Praesent facilisis diam nec sapien gravida non mattis justo imperdiet. Vestibulum nisl urna, euismod sit amet congue at, bibendum non risus.</h5>
+                            <p>&ndash; Thomas Buddyman</p>
+                        </blockquote>
+                        
+                        <blockquote>
+                            <h5>Vestibulum facilisis diam nec sapien gravida non mattis justo imperdiet. Vestibulum nisl urna, euismod sit amet congue at, bibendum non risus.</h5>
+                            <p>&ndash; Brian Greene</p>
+                        </blockquote>
+                        
+                        <blockquote>
+                            <h5>Praesent facilisis diam nec sapien gravida. Vestibulum nisl urna, euismod sit amet congue at, bibendum non risus.</h5>
+                            <p>&ndash; Dominique Kita</p>
+                        </blockquote>
+                        
+                        <blockquote>
+                            <h5>Praesent facilisis diam nec sapien gravida non mattis justo imperdiet. Vestibulum nisl urna, euismod sit amet congue at, bibendum non risus.</h5>
+                            <p>&ndash; Beat Buddy Boi</p>
+                        </blockquote>
+					</div>
+     			</div>
+    		</div>
+        	<!-- MODULE : QUOTE -->
+            
+            <!-- MODULE : SPEAKER -->
+        	<div class="colorline"></div>
+            <section id="speaker" class="section-container">
+            	<div class="header-image">
+                	<div class="header-image-speaker"></div>
+                    <div class="pattern-overlay"></div>
+                </div>
+            	<div class="container">
+                	<div class="sixteen columns heading-text">
+                     	<div class="separator separator-title">
+                            <h2 class="separator-mainheader color">The Speakers</h2>
+                            <span class="separator-subheader">Who will share the experiences</span>
+                		</div>
+            		</div>
+                    <!-- SPEAKER - speaker profile -->
+                    <div class="one-third column speaker-profile">
+                        <div class="speaker-thumb"><img src="demo/speaker/04_speaker1.jpg" alt="speaker"/></div> 
+                        <div class="speaker-description">
+                            <h5>Mark John</h5>
+                            <p class="job-position">Social Media Founder</p> 
+                            <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante</p>
+                        </div>
+                    </div>
+                    <!-- SPEAKER - speaker profile -->
+                        
+                    <!-- SPEAKER - speaker profile -->
+                    <div class="one-third column speaker-profile">
+                        <div class="speaker-thumb"><img src="demo/speaker/04_speaker2.jpg" alt="speaker"/></div> 
+                        <div class="speaker-description">
+                            <h5>Phil Collins</h5>
+                            <p class="job-position">Media Marketing</p> 
+                            <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante</p>
+                        </div>
+                    </div>
+                    <!-- SPEAKER - speaker profile -->
+                            
+                    <!-- SPEAKER - speaker profile -->
+                    <div class="one-third column speaker-profile">
+                        <div class="speaker-thumb"><img src="demo/speaker/04_speaker3.jpg" alt="speaker"/></div> 
+                        <div class="speaker-description">
+                            <h5>John Brown</h5>
+                            <p class="job-position">Social Media Expertise</p> 
+                            <p>Lorem ipsum dolor sit amet, consectetur.. Ut eu semper turpis. In gravida leo laoreet magna blandit et malesuada lorem luctus. Aliquam quis cursus justo. Nulla vehicula nulla ante</p>
+                        </div>
+                    </div>
+                    <!-- SPEAKER - speaker profile -->
+                    
+                    
+                    <div class="sixteen columns">
+                        <h5>Also Featured</h5>
+                        <p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    
+                    <ul class="grid cs-style-3">
+                    
+                        <!-- SPEAKER - speaker profile -->
+                        <li class="four columns speaker-profile ">
+                            <figure>
+                                <img src="demo/speaker/04_speaker1.jpg" alt="speaker"/>
+                                <figcaption>
+                                    <h5 class="white">Jonathan Lee</h5>
+                                    <span>Creative Speaker</span>
+                                   
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- SPEAKER - speaker profile -->
+                        
+                        <!-- SPEAKER - speaker profile -->
+                        <li class="four columns speaker-profile ">
+                            <figure>
+                                <img src="demo/speaker/04_speaker2.jpg" alt="speaker"/>
+                                <figcaption>
+                                    <h5 class="white">Jonathan Lee</h5>
+                                    <span>Creative Speaker</span>
+                                   
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- SPEAKER - speaker profile -->
+                        
+                        <!-- SPEAKER - speaker profile -->
+                        <li class="four columns speaker-profile ">
+                            <figure>
+                                <img src="demo/speaker/04_speaker3.jpg" alt="speaker"/>
+                                <figcaption>
+                                    <h5 class="white">Jonathan Lee</h5>
+                                    <span>Creative Speaker</span>
+                                   
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- SPEAKER - speaker profile -->
+                        
+                        <!-- SPEAKER - speaker profile -->
+                        <li class="four columns speaker-profile ">
+                            <figure>
+                                <img src="demo/speaker/04_speaker1.jpg" alt="speaker"/>
+                                <figcaption>
+                                    <h5 class="white">Jonathan Lee</h5>
+                                    <span>Creative Speaker</span>
+                                   
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- SPEAKER - speaker profile -->                    
+                    </ul>
+                    
+      			</div>
+			</section>
+        	<!-- MODULE : SPEAKER -->
+      	
+            <div class="colorline"></div>
+            <!-- MODULE : SCHEDULE -->
+            <section id="schedule" class="section-container">
+                <div class="header-image">
+                	<div class="header-image-schedule"></div>
+                    <div class="pattern-overlay"></div>
+                </div>
+                <div class="container">
+                    <div class="sixteen columns heading-text">
+                        <div class="separator separator-title">
+                            <h2 class="separator-mainheader color">The Schedules</h2>
+                            <span class="separator-subheader">Schedules might change</span>
+                        </div>
+                    </div>  
+                    <!-- schedule list -->
+                    <div class="sixteen columns schedule-list odd">
+                        <div class="day">
+                            <div>
+                                <h6>Day 1</h6>
+                            </div>
+                        </div>
+                    
+                        <div class="time">
+                            <div>
+                                <h6>8.30am - 9.30am</h6>
+                                <p>(1 hour)</p>
+                            </div>
+                        </div>
+                    
+                        <div class="details">
+                            <div>
+                                <h6>Registration*</h6>
+                                <p>Visit reception to register</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- schedule list -->
+                    <!-- schedule list -->
+                    <div class="sixteen columns schedule-list">
+                        <div class="day">
+                            <div>
+                                <h6>Day 1</h6>
+                            </div>
+                        </div>
+                    
+                        <div class="time">
+                            <div>
+                                <h6>9.30am - 11.30am</h6>
+                                <p>(2 hours)</p>
+                            </div>
+                        </div>
+                    
+                        <div class="details">
+                            <div>
+                                <h6>HTML5  &amp; CSS3 Step by Step Basic Programming</h6>
+                                <p>You will learn Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- schedule list -->
+                    <!-- schedule list -->
+                    <div class="sixteen columns schedule-list odd">
+                        <div class="day">
+                            <div>
+                                <h6>Day 1</h6>
+                            </div>
+                        </div>
+                    
+                        <div class="time">
+                            <div>
+                                <h6>1.30pm - 2.30am</h6>
+                                <p>(1 hour)</p>
+                            </div>
+                        </div>
+                    
+                        <div class="details">
+                            <div>
+                                <h6>HTML5  &amp; CSS3 Step by Step Basic Programming</h6>
+                                <p>You will learn Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- schedule list -->
+                    <!-- schedule list -->
+                    <div class="sixteen columns schedule-list">
+                        <div class="day">
+                            <div>
+                                <h6>Day 2</h6>
+                            </div>
+                        </div>
+                    
+                        <div class="time">
+                            <div>
+                                <h6>8.30am - 9.30am</h6>
+                                <p>(1 hour)</p>
+                            </div>
+                        </div>
+                    
+                        <div class="details">
+                            <div>
+                                <h6>Registration</h6>
+                                <p>Visit reception to register again</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- schedule list -->
+                    <!-- schedule list -->
+                    <div class="sixteen columns schedule-list odd">
+                        <div class="day">
+                            <div>
+                                <h6>Day 2</h6>
+                            </div>
+                        </div>
+                    
+                        <div class="time">
+                            <div>
+                                <h6>1.30pm - 3.30pm</h6>
+                                <p>(1 hour)</p>
+                            </div>
+                        </div>
+                    
+                        <div class="details">
+                            <div>
+                                <h6>Discussion Talk About How To Develop A Good Application</h6>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor adipisicing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- schedule list -->
+                    <div class="sixteen columns"  >
+                        <p class="terms">
+                            * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br>
+                            * Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor adipisicing elit, sed do eiusmod tempor
+                        </p>
+                    </div>
+                </div>
+            </section>  
+            <!-- MODULE : SCHEDULE --> 
+            
+            <!-- MODULE : TWITTER -->	
+            <div id="twittersection">
+                <div class="container">
+                    <div class="sixteen columns twitter">
+                        <div class="twittersection-icon"><img src="images/twittericon.png" alt="twitter"/></div>
+                        <h3 class="twitter-author"><a href="http://twitter.com/thegraphicgeeks" target="_blank">@thegraphicgeeks</a></h3>
+                        <div id="lasttweet"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- MODULE : TWITTER -->
+                
+            <!-- MODULE : VENUE -->	
+            <section id="venue" class="section-container">
+                <!-- VENUE - Map -->
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+                <!-- VENUE - Map -->
+                <div class="container">
+                    <div class="sixteen columns heading-text">
+                        <div class="separator separator-title">
+                            <h2 class="separator-mainheader color">Venue of Workshop</h2>
+                            <span class="separator-subheader">Learn where is it and how to get there</span>
+                        </div>
+                    </div>
+                    
+                    <!-- VENUE INFO -->
+                    <div class="sixteen columns">
+                        <h5>280 Broadway, 2nd Floor New York, NY 10007. </h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <hr class="dividerline"/>    
+                    
+                    <!-- VENUE - how to get there -->
+                    <div class="routeby one-third column">
+                        <div class="route-icon"><img src="images/icons/car.png" alt="icon"/></div> 
+                        <div class="route-title">
+                            <h6>Routes by Car</h6>
+                            <p class="routedesc">using GPS : Broadway.11a, 56372</p>
+                        </div> 
+                        <div class="route-moreinfo"><p>Find your way to the Meeting by navigation and GPS. Parking in front of the event location is possible. Your destination address: Broadway center, Newyork (NYC)</p></div>
+                    </div>
+                    <!-- VENUE - how to get there -->
+                    
+                    <!-- VENUE - how to get there -->
+                    <div class="routeby one-third column">
+                        <div class="route-icon"><img src="images/icons/train.png" alt="icon"/></div> 
+                        <div class="route-title">
+                            <h6>Routes by Train</h6>
+                            <p class="routedesc">about 20 min / $50</p>
+                        </div> 
+                        <div class="route-moreinfo"><p>You can reach the train station to Manhattan very easily over the train stations in New York. The train "Circle Line″ will drive each 20 minutes from Bronx to Manhattan.</p></div>
+                    </div>
+                    <!-- VENUE - how to get there -->
+                    
+                    <!-- VENUE - how to get there -->
+                    <div class="routeby one-third column">
+                        <div class="route-icon"><img src="images/icons/bus.png" alt="icon"/></div> 
+                        <div class="route-title">
+                            <h6>Routes by Bus</h6>
+                            <p class="routedesc">about 45 min / $25-$35</p>
+                        </div> 
+                        <div class="route-moreinfo"><p>You can take any red bus and after 20 minutes, please alight on Central Park and get on another bus with the number 22. about 15 minutes you will reach Broadway bus stop.</p></div>
+                    </div>
+                    <!-- VENUE - how to get there -->
+                </div>
+            </section>
+            <!-- MODULE : VENUE -->
+        
+            <div class="colorline"></div>
+            <!-- MODULE : FAQ -->
+            <section id="faq" class="section-container">
+            	<div class="header-image">
+                	<div class="header-image-faq"></div>
+                    <div class="pattern-overlay"></div>
+                </div>
+                <div class="container">
+                    <div class="sixteen columns heading-text">
+                        <div class="separator separator-title">
+                            <h2 class="separator-mainheader color">Questions?</h2>
+                            <span class="separator-subheader">Do you have questions?</span>
+                        </div>
+                    </div>
+                    <dl class="Zebra_Accordion" id="Zebra_Accordion1">
+                        <dt>How to sign up this event?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>Do I need to pay a downpayment?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>Is the payment can be made using credit card?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>How does a player qualify to play in the Men's event?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>Can I watch players practice? How do I know who's practicing when and where?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>When is the first round played? When's the second round played?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>Where do I park? What's the cost?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>When's the best day or session to attend?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                        <dt>Will one ticket allow me to watch both the afternoon and evening sessions?</dt>
+                        <dd>
+                            Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et.
+                            Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum.
+                            Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed.
+                        </dd>
+                    </dl>
+                </div>   	
+            </section>
+            <!-- MODULE : FAQ -->
+    
+            <!-- MODULE : FOOTER -->
+            <footer>
+            	<div class="footer-arrow"></div>
+                <div class="container">
+                    <div class="sixteen columns footer-inside">
+                        <h3>Register Now! And you will get special price</h3>
+                        <br>
+                        <p>From <span class="discountprice">USD 65</span> becoming USD 35.</p>
+                        <a class="button my_modal_open" style="margin:0 auto;">Purchase Now</a>
+                    </div>
+                 </div>
+                    
+                 <div class="footer-border"></div>
+                 <div class="container">   
+                    <div class="eight columns copyright"><p>Copyright © 2013 by Graphicgeeks. Jakarta, Indonesia</p></div>
+                    <div class="eight columns social-footer">
+                        <div class="social-icons">
+                            <div><a href="https://www.facebook.com/kokoba.crew" target="_blank" class="facebook-icon"><img alt="" src="images/social-icons/facebook.png" /></a></div>
+                            <div><a href="http://twitter.com/kokobacrew" target="_blank" class="twitter-icon"><img alt="" src="images/social-icons/twitter.png" /></a></div>
+                            <div><a href="http://www.youtube.com/user/KOKOBACREW#" target="_blank" class="googleplus-icon"><img alt="" src="images/social-icons/googleplus.png" /></a></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- MODULE : FOOTER -->      
+		</div>
+	</div>    
+	<!-- END OF DIV -->    
+		
+	<!-- ========= 
+  	JS
+	========= -->
+	
+    <!-- easing lib -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/toucheffects.js"></script>
+	<!-- twitter -->
+	<script src="js/twitter/jquery.tweet.js"></script>
+	<script src="js/twitter-options.js"></script>
+    <!-- countdown -->
+    <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+    <script type="text/javascript">
+			jQuery(document).ready(function() {
+				$('#countdown_dashboard').countDown({
+					targetDate: {
+						'day': 		10,
+						'month': 	1,
+						'year': 	2014,
+						'hour': 	11,
+						'min': 		0,
+						'sec': 		0
+					}
+				});
+			});
+	</script>
+    <!-- googlemaps -->
+    <script type="text/javascript" src="js/jquery.gmaps.js"></script>
+    <script type="text/javascript">
+			var map;
+	
+			$(window).load(function() {
+			   
+			  map = new GMaps({
+				div: '#map',
+				lat: -12.043333,
+				lng: -77.028333,
+				scrollwheel: false
+			  });
+
+			  map.drawOverlay({
+				lat: map.getCenter().lat(),
+				lng: map.getCenter().lng(),
+				content: '<div class="overlay-map"><div class="overlay-map-header">Where is it?</div><p>280 Broadway, 2nd Floor New York, NY 10007. <br/>Near United Building</p><div class="overlay-map-arrow above"></div></div>',
+				verticalAlign: 'center',
+				horizontalAlign: 'center'
+			  });
+			});
+		</script> 	
+        <script src="js/jquery.scrollTo.js"></script>
+		<!-- One page Nav -->
+		<script src="js/jquery.nav.js"></script>
+        <script>
+		$(document).ready(function() {
+			$('#onepagenav').onePageNav({
+			changeHash: false,
+			filter: ':not(.external)',
+			scrollOffset: 0,
+			});
+			$('img').retinafy();
+		});
+		</script>
+        <!-- Retina Display -->
+        <script src="js/retina.js"></script>
+  		<script>
+  		$('.my_modal_open').click(function(){
+		   	$('#my_modal').popup({
+			'autoopen': true
+			});
+ 		});
+		</script>
+        <script type="text/javascript">
+        $(window).load(function() {
+    		$('body').css('overflow', 'auto');
+     		$('.preloader').delay(3000).fadeOut('slow');
+  		});
+        </script>
+        
+        <!-- BUY TICKET MODAL -->
+		<div id="my_modal" class="container ticketmodal">
+     		<a class="ticketmodal-close my_modal_close">x</a>
+			<div class="sixteen columns heading-text-price">
+                <div class="separator separator-title">
+                    <h2 class="separator-mainheader color">Buy Ticket Now</h2>
+                    <span class="separator-subheader">Get the ticket now or never!</span>
+                </div>
+          	</div>
+        	<div class="sixteen columns">
+            	<h5>Get Our Special Offer</h5>
+        		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     		</div>
+ 			<div class="sixteen columns price-container">
+            	<!--Single price columns-->
+           		<div class="price-column">
+					<div class="title">1 Day Pass</div>
+                	<div class="pricebox"><sup>$</sup>32.0</div>
+					<div class="pricecontent">
+                        <ul>
+                            <li>Starter Kits</li>
+                            <li>Lunch and Dinner</li>
+                            <li>1 Day Workshop</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetuer</p>
+                        <a href="#" class="button button-ticket">Purchase</a>
+                 	</div>   
+				</div>
+                <!--/Single price columns-->
+				
+                <!--Single price columns-->
+				<div class="price-column">
+                    <div class="title-middle">All Day Pass</div>
+                    <div class="pricebox-middle"><sup>$</sup>72.0</div>
+                    <div class="pricecontent-middle">
+                        <ul>
+                            <li>Starter Kits</li>
+                            <li>Lunch and Dinner</li>
+                            <li>7 Days Workshop</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetuer</p>
+                        <a href="#" class="button button-ticket">Purchase</a>
+                     </div>   
+				</div>
+                <!--/Single price columns-->
+            	
+                <!--Single price columns-->
+                <div class="price-column">
+                    <div class="title">3 Day Pass</div>
+                    <div class="pricebox"><sup>$</sup>92.0</div>
+                    <div class="pricecontent">
+                        <ul>
+                            <li>Starter Kits</li>
+                            <li>Lunch and Dinner</li>
+                            <li>3 Days Workshop</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetuer</p>
+                        <a href="#" class="button button-ticket">Purchase</a>
+                     </div>   
+                </div>
+                <!--/Single price columns-->
+ 			</div>
+		</div>
+        <!-- Google Analytics -->
+		<!--
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		-->
 </body>
 </html>
+<!-- END - grab our free graphic and web design resources only on www.graphicgeeks.net -->
