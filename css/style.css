@@ -188,7 +188,7 @@ footer .social-footer{margin-top:0px;padding:11px 0px 0px 0px;height:26px;margin
 /*Schedule*/
 .schedule-list{background-color:#fff;border-bottom:dotted 1px #ccc;}
 .schedule-list.odd{background-color:#f3f3f3;}
-.schedule-list .day{width: 120px;float: left;display: inline;margin-right: 0px;}
+.schedule-list .day{width: 200px;float: left;display: inline;margin-right: 0px;}
 .schedule-list .day div, .schedule-list .time div, .schedule-list .details div{padding:15px;}
 .schedule-list .time{width: 200px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
 .schedule-list .details{width: 580px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
